@@ -2,11 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm install && npm run migrate && npm run lint && npm test && npm run compile && npm run optimize",
-    "dev": "node index.js",
+    "dev": "node server.js",
 },
   "keywords": [],
   "author": "",
